@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2025DAAD-ECD8-D858-AD89-1D868A9A774D" containerWithKeyObject="30729381-B181-2AE8-9EAD-757C5C7A1664" localFKIndex="76F5D416-EFCE-94B0-30DE-6679113E8D45" name="CARD_ALBUM_ALBUM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>A342DFDE-BB6B-393B-4233-E3853BC0D8E5</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>ALBUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>889C38C9-6D6E-5C16-F14C-A71F8F19D054</referredTableID>
+<keyObject>7DA61F56-CECA-3C8A-97A3-DF3034E324BF</keyObject>
+<referredKeyID>7DA61F56-CECA-3C8A-97A3-DF3034E324BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>album_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

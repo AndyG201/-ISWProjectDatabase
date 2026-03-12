@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CD37E02-0816-57C8-7F60-86E8BDD9BF86" name="PREDICTION">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>9C7891C7-DEC5-884B-DBE5-7399064C91E7</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prediction_id" id="63686A04-ECDD-35DD-0250-CFF7CA687BBD">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>174AAE14-93EE-176D-BC9F-F2EBE1F3A11C</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="away_goals" id="323A32A8-DAF6-1083-018E-0BEFA3945E57">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>499C286E-DDC6-31F2-B9D7-CDB48A974C4F</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="home_goals" id="0CBCED1B-905B-9BD2-E605-2F0B1F4160F4">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>F8241AE2-4FA3-6F28-8442-F6DD09C3769E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BETTING_TEAM_betting_team_id" id="DB4DC02E-7001-6593-8433-244CAD4BBCAB">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>359CAFC9-4FEE-8336-B13D-45CAB64EEBD9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="369325CD-686D-9C20-495D-B343A631EFCB" referredColumn="D198B487-4BD1-E235-8B45-BFCE5ECF674C"/>
+</associations>
+</Column>
+<Column name="USER_user_id" id="FDE4621A-5D31-E632-521F-2405A55340A7">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>A5CDBDDD-2530-B19E-8305-293AC370F57B</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F3F150D-A289-7242-C39B-549C16800CE0" referredColumn="7310E99B-1DE0-77F7-1469-E3FB2D416B2E"/>
+</associations>
+</Column>
+<Column name="MATCH_match_id" id="6A152ACB-ED85-7937-2B01-B93E63DE144C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>56374F94-276A-2490-F952-CDEDF22DC0CB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65091341-45A7-F02C-9428-77D97FEE001B" referredColumn="09B1A523-2FC3-F2F0-5126-51D5524347D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48450FC1-1D42-DA27-8D90-69B1D89D0B0B" name="PREDICTION_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>7540FA7A-3D75-974F-FF2C-04C53CCB00CD</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63686A04-ECDD-35DD-0250-CFF7CA687BBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B799C9DB-3B59-E487-00C7-742609031C3F" name="PREDICTION_MATCH_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>69626C2D-4732-A582-777E-D22B895F44A2</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A152ACB-ED85-7937-2B01-B93E63DE144C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6DCFCC0-1E3A-D0D5-3D57-F94BE0545C76" name="PREDICTION_BETTING_TEAM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>ACF22321-CA1C-D354-D033-9489F5396355</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4DC02E-7001-6593-8433-244CAD4BBCAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F5B046E-5A43-6371-B849-B1F357C2C7BA" name="PREDICTION_USER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>EC32850D-1555-5217-BED5-33B5C8F13067</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE4621A-5D31-E632-521F-2405A55340A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

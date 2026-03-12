@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="369325CD-686D-9C20-495D-B343A631EFCB" containerWithKeyObject="9CD37E02-0816-57C8-7F60-86E8BDD9BF86" localFKIndex="E6DCFCC0-1E3A-D0D5-3D57-F94BE0545C76" name="PREDICTION_BETTING_TEAM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>ACF22321-CA1C-D354-D033-9489F5396355</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>BETTING_TEAM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D56BF3E-D173-BA9F-7267-5438F4457248</referredTableID>
+<keyObject>EE74F775-3B2E-5601-7907-9D1A5FCAFF7E</keyObject>
+<referredKeyID>EE74F775-3B2E-5601-7907-9D1A5FCAFF7E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>betting_team_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

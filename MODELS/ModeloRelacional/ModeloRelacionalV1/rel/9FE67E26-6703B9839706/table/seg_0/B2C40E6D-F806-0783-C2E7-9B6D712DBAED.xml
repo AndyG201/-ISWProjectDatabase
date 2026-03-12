@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2C40E6D-F806-0783-C2E7-9B6D712DBAED" name="TICKET">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>C4561E4E-0F22-DBEF-A0DA-DEF1845E7684</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ticket_id" id="AB8DC897-E895-30A1-E4E6-501081647751">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>2EA99F69-8483-DB95-B380-6F6D11209A42</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="909F5CD5-222A-F7CE-5DD5-443A212B0F0E">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>8DF5F8A6-3519-7BEE-10DA-D19F1DA047F0</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reservation_date" id="CC2BB755-1998-1EDD-4A3A-168311FB91B9">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>CBC6E39C-8B39-B1F4-9B66-99C5511E6983</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="F557484C-F07A-FE59-5E7B-88ACA9076A89">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>9EAFB14A-88C5-93E8-4FA1-41D2DF6AB339</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiration_date" id="2ACCAE80-DDB2-0265-AF2B-FEEAB68E6432">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>4A00E0E6-7115-F2F2-40B2-D0EB69E7D472</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_user_id" id="26DBCDDA-4382-3765-4EE0-43A7FE98BB5F">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>31C73835-AC5D-C6F9-BBBD-5AAC49065579</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="899A7882-341D-87A9-EC63-B81A3801FD82" referredColumn="7310E99B-1DE0-77F7-1469-E3FB2D416B2E"/>
+</associations>
+</Column>
+<Column name="MATCH_match_id" id="41729850-C802-322B-CEB4-855A8C2A898F">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>D9CEA02D-CCB7-E2DF-943A-B206A0646B06</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="004D1204-1EC7-0322-5AF5-75F94BE33844" referredColumn="09B1A523-2FC3-F2F0-5126-51D5524347D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6080D7D9-3133-9EA8-A368-ABD3B40B1EEE" name="TICKET_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>4FE0B210-A1B1-4668-AAF8-C8BB6E444AF0</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8DC897-E895-30A1-E4E6-501081647751"/>
+<colUsage columnID="26DBCDDA-4382-3765-4EE0-43A7FE98BB5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42D77B33-D4F6-F344-A4E3-6A134C102254" name="TICKET_USER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>7B2FE644-C911-58BA-768A-E7E0CDE115A6</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26DBCDDA-4382-3765-4EE0-43A7FE98BB5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A14EF10B-6452-F814-1494-65A8367A102D" name="TICKET_MATCH_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>D33487DA-0296-AEE0-FF75-CD41628B6418</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41729850-C802-322B-CEB4-855A8C2A898F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

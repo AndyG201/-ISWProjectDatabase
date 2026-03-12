@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A68D6C4-FB22-E956-3169-1008BB2DB106" name="NOTIFICATION">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>1635CE1A-E392-833A-4623-F21CD4061912</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="notification_id" id="82314DD3-4140-E93F-4895-AC3C10B93FC7">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>17DE815E-323F-5B85-0D7E-5C263D55EBC9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message_type" id="9DD0ECBD-897B-BB9B-FF99-08E4F9521FBE">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>BAA6CEB0-6DB3-27B3-D0E9-6C0EFE7908A8</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_user_id" id="82BF955F-6893-4C39-4A7E-40E50BB9776A">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>5EFF4E75-B236-BA67-EBF6-F07C38660C44</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4AC03B0-921F-7744-7AAF-1A952182BD18" referredColumn="7310E99B-1DE0-77F7-1469-E3FB2D416B2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="313235BF-8A75-9A13-8827-67CC447FE239" name="NOTIFICATION_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>FF4CCB0B-A15C-9C41-F1E9-FB0427BB08D0</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82314DD3-4140-E93F-4895-AC3C10B93FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2EB1211-EA58-FEA3-27EA-368F7E8839C9" name="NOTIFICATION_USER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>DEA5E316-FF90-38EC-93FF-65EEDDFAF42A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82BF955F-6893-4C39-4A7E-40E50BB9776A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

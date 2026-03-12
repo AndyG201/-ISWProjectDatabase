@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A73DC41F-FE4E-0993-DC45-A661781FA034" name="STADIUM">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>3CEC918E-70A1-D4C2-B443-CCD10090B931</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stadium_id" id="30544765-8825-73B2-55E3-B26B0CD444CE">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>5CC2DD4C-6370-E73F-F6A5-3B117A38D651</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="66E0BC1C-0665-E0CA-F060-79D60A083BD2">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>82C4037B-C438-0304-8C83-24EBF9D0B3B5</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="F5B02A39-8A52-426F-05E9-7DF283057AB8">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>D22A0684-A457-B0A0-9F30-04171A4B7867</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cyty" id="32F43881-E336-6D28-783E-4DD26DA92FEF">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>40D59317-E882-5ECD-CBC0-EAD960C203C1</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="B723F3C0-B723-36F2-70C5-F937B9F7AC2F">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>6A27920F-1402-3B05-B09B-D546D74D664A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E04DD329-5A71-77B9-3CA2-0F6BC9B6B4BA" name="STADIUM_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>26C6393D-EEF1-133B-C7CA-BC980B687545</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30544765-8825-73B2-55E3-B26B0CD444CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

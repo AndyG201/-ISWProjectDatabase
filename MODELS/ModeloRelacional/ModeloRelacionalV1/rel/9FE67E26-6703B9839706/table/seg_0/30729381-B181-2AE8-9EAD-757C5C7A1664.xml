@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30729381-B181-2AE8-9EAD-757C5C7A1664" name="CARD_ALBUM">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>9495A911-5831-4A76-2897-CF933267EDAB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARD_card_id" id="84EF2B2C-024B-5ACC-D7D8-6D190DAECD26">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>E083902B-01BA-7FA3-3ECD-3F1034BB74AA</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0B3959-AE40-E6D1-BE32-9D95A0699882" referredColumn="15FE6625-A264-45B3-A11C-916DB8EDE9D7"/>
+</associations>
+</Column>
+<Column name="ALBUM_album_id" id="1438EA01-94F1-5281-4494-3AD3C1C5B823">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>3815F8A2-9006-AE0F-4A11-F91E91C9CA2A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2025DAAD-ECD8-D858-AD89-1D868A9A774D" referredColumn="E19779BF-34DA-BC8C-E95B-BC9E9F2DB569"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0BA9E4C-0FCF-260E-5861-84306B219DB3" name="CARD_ALBUM_CARD_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>FACB45CA-140E-99FA-9545-3B058D3AC467</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84EF2B2C-024B-5ACC-D7D8-6D190DAECD26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76F5D416-EFCE-94B0-30DE-6679113E8D45" name="CARD_ALBUM_ALBUM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>A342DFDE-BB6B-393B-4233-E3853BC0D8E5</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1438EA01-94F1-5281-4494-3AD3C1C5B823"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

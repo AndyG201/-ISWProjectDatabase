@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C960E7C0-A0BB-207B-72BC-A5BB09E9E6D6" name="WALLET_MOVEMENTT">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:44:08 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_wallet_movement" id="3787F5A4-701E-8A8D-4446-6CB19CBB521C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:44:39 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="2A09E4B2-5F12-CCB4-1DC2-6AF291CD9157">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:44:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reason" id="C5ACDB73-CD31-5928-8D99-E5D65B293C7A">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:45:09 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="79A95E31-7524-4D5C-C721-7CB2F4E7F5F9">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:45:33 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="C95EC6E6-085B-CD7B-F9B2-875D025A52CF">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:45:50 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wallet_id" id="52FF6761-F32F-E4DA-0E2D-606DB20613D3">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:46:36 UTC</createdTime>
+<generatorID>346BD79F-C443-EF72-42D9-00C8986101F9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>ABBAF211-9055-181D-0D5B-A8FB29AA2921</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="CFC01E17-339F-83DF-6C66-514AC56090A0">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:46:36 UTC</createdTime>
+<generatorID>346BD79F-C443-EF72-42D9-00C8986101F9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>BEB7353B-A9A0-26F8-6789-CB95C8F4D8F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F510045-7DEF-F7BD-D4E9-74ED827DC6C0" name="WALLET_MOVEMENTT PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:44:49 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3787F5A4-701E-8A8D-4446-6CB19CBB521C</attributeRef>
+<attributeRef>52FF6761-F32F-E4DA-0E2D-606DB20613D3</attributeRef>
+<attributeRef>CFC01E17-339F-83DF-6C66-514AC56090A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

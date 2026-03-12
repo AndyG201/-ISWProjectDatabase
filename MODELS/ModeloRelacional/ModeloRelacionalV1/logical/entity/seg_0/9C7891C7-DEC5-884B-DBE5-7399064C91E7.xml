@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C7891C7-DEC5-884B-DBE5-7399064C91E7" name="PREDICTION">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:43:07 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prediction_id" id="174AAE14-93EE-176D-BC9F-F2EBE1F3A11C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:43:39 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="away_goals" id="499C286E-DDC6-31F2-B9D7-CDB48A974C4F">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:43:45 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_goals" id="F8241AE2-4FA3-6F28-8442-F6DD09C3769E">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:44:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="betting_team_id" id="359CAFC9-4FEE-8336-B13D-45CAB64EEBD9">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:47:01 UTC</createdTime>
+<generatorID>ACF22321-CA1C-D354-D033-9489F5396355</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>619A6258-0520-1AEF-D79D-E3A0EF8222F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="A5CDBDDD-2530-B19E-8305-293AC370F57B">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:47:21 UTC</createdTime>
+<generatorID>EC32850D-1555-5217-BED5-33B5C8F13067</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>C7FC2716-1418-3999-10C1-30CAB33D36E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="match_id" id="56374F94-276A-2490-F952-CDEDF22DC0CB">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:48:50 UTC</createdTime>
+<generatorID>69626C2D-4732-A582-777E-D22B895F44A2</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>3DC441E7-684B-7DB2-65D6-AC858FD840E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7540FA7A-3D75-974F-FF2C-04C53CCB00CD" name="PREDICTION PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:43:50 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>174AAE14-93EE-176D-BC9F-F2EBE1F3A11C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

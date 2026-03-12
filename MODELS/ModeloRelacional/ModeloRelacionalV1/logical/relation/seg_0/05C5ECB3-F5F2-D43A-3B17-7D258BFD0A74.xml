@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GENERATE" directorySegmentName="seg_0" id="05C5ECB3-F5F2-D43A-3B17-7D258BFD0A74">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:10:43 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<sourcePk>DD939ADA-E7EF-BC39-DB0A-78195364ABB2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95D8B809-96A8-C5C3-F75F-2D4988C49ADA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>40C3D5C3-61CE-B9A6-6B70-1AE5405B3F80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Attribute_29" id="D907CF80-30D0-3C31-376A-EB08EA0AFA54">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:11:18 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

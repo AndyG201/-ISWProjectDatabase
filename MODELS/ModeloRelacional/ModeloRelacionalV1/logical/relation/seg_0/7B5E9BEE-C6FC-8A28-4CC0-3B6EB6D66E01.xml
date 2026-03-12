@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CANCEL" directorySegmentName="seg_0" id="7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:58:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<sourcePk>4FE0B210-A1B1-4668-AAF8-C8BB6E444AF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4561E4E-0F22-DBEF-A0DA-DEF1845E7684</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>40C3D5C3-61CE-B9A6-6B70-1AE5405B3F80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

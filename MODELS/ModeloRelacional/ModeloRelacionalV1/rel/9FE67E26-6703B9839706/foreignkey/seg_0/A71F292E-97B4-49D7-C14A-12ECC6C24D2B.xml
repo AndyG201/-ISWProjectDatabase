@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A71F292E-97B4-49D7-C14A-12ECC6C24D2B" containerWithKeyObject="DD888F9E-499E-EFA3-4A3B-385E818EB54F" localFKIndex="B86F665A-A436-37BA-17D7-F927FFFFA0BB" name="WALLET_MOVEMENTT_WALLET_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-09 01:30:08 UTC</createdTime>
+<generatorID>346BD79F-C443-EF72-42D9-00C8986101F9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>WALLET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3AF4A19-907A-6DEA-59AE-59B2E86D6D8D</referredTableID>
+<keyObject>968FCBBB-31C3-3D9C-7DF5-0B4B35945F49</keyObject>
+<referredKeyID>968FCBBB-31C3-3D9C-7DF5-0B4B35945F49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wallet_id,USER_user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

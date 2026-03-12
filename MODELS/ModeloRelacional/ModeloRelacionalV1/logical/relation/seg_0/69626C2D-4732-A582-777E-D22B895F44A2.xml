@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BELONGv3" directorySegmentName="seg_0" id="69626C2D-4732-A582-777E-D22B895F44A2">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:48:50 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<sourcePk>5ED1E444-A4D4-E47C-DD5F-663B3858E410</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50166B9E-9C4F-0A52-CB22-ACD58481D97F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9C7891C7-DEC5-884B-DBE5-7399064C91E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
