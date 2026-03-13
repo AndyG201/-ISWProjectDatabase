@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="487DDD08-2FEF-7140-DBBC-F6250836A0C1" name="BETTING_POOL">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>39322985-5F99-7F29-F6BC-6EA57E71E4A4</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="betting_team_id" id="A5A0865F-E204-A97D-3F84-F8A032E63E73">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>619A6258-0520-1AEF-D79D-E3A0EF8222F1</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="6318C529-44FD-A82F-EF68-B1FBD83501E4">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>30C2C52E-EE55-2937-D80A-2DB1FBD5521A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invitation_code" id="CB914173-2647-867A-963A-B9A7C6CDA897">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>F5D1F11D-6748-9266-7612-B13EEF5970AA</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD42460E-36F9-2641-26F5-963A300CA0DC" name="BETTING_POOL_PK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>3420BF9C-67F7-B2B6-3AE1-CDBC7259C40F</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A0865F-E204-A97D-3F84-F8A032E63E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

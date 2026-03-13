@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3D7D518-E050-EE16-4FE7-BA20B39816B1" name="TICKET_HISTORY">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>E2243204-A74C-D287-C6FE-43A1EB75A60A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ticked_history" id="B7880A9F-6CC0-F09E-63BD-8AC53E5C79E6">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>D3CB89D8-C0B8-D5D2-5AC6-EE364BEF1073</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="86F19DBD-1C94-675A-32A6-2BB232FAE62B">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>0735864A-7492-ED64-86F2-D478BBF54DF8</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reason" id="99B7E18A-615A-1D0C-F4E0-0B387207BAD9">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>DAE65778-5D15-BF98-ACFF-8815D2C028D7</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changedAt" id="02C7EDE6-3E5D-3222-024E-749973C62D44">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>ACFF5DB5-0891-5FC5-2AE2-BC8FE9961823</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TICKET_ticket_id" id="7FAF9EDF-ABB9-5326-A364-5A98A07D0BFA">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>B75D5701-4297-F59D-35E3-BE2093F8D0A6</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ED307EA-B3CD-4F6C-B399-198C614F5103" referredColumn="479621AF-A299-02F0-96D4-05C41C665933"/>
+</associations>
+</Column>
+<Column name="TICKET_USER_user_id" id="9C51014E-92D9-9067-FEB6-DF93905A5D2A">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>4B2C4306-C7E8-626F-68D6-A54548336518</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ED307EA-B3CD-4F6C-B399-198C614F5103" referredColumn="722E32F4-0FEF-DB0D-E4E7-DC04711F65B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55324C5B-9459-9AF5-E435-A2C2706B719A" name="TICKET_HISTORY_PK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>3A386BBA-84F8-1DE2-5954-DE635986160B</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7880A9F-6CC0-F09E-63BD-8AC53E5C79E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC87F574-3408-C9E5-6BA8-5A1AD101988A" name="TICKET_HISTORY_TICKET_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:25 UTC</createdTime>
+<generatorID>607D8CE2-572A-1009-21BD-145C07F6AE2C</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FAF9EDF-ABB9-5326-A364-5A98A07D0BFA"/>
+<colUsage columnID="9C51014E-92D9-9067-FEB6-DF93905A5D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

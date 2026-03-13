@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2B7F3A4-FF40-8118-E929-4C4143AED7CC" name="PHASE">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>E3684E89-98CA-B101-0D13-94B77AAAF775</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_phase" id="31E88E31-27E9-D377-F127-D0B548C7EDCA">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>DA2192BD-DC88-9339-B244-C7B874C55546</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phase_name" id="869AA8A6-B4AB-55D6-98BB-61DBF2950C22">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>7F0D1B7B-178F-F82D-8973-0F14E1A02DEA</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATCH_match_id" id="61498A09-97D7-3AB5-E591-B46AFEFA86BF">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>9CD72636-A105-694F-1EFD-99705AD0E083</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0F8D4B-6F48-FD57-0468-5DD28A141FF9" referredColumn="34A008A7-2CC9-A5A4-73B8-21336AC6088B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4EA880F-9675-816D-67B6-A1A334EAA0F8" name="PHASE_PK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>0C2396A8-91F6-3A6E-3C74-8341391C82EA</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31E88E31-27E9-D377-F127-D0B548C7EDCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4EA779E-AB40-0581-AAF5-DBAC40A9A6E6" name="PHASE_MATCH_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:25 UTC</createdTime>
+<generatorID>ED2ABCA5-04B0-9DC8-5403-5128DD9183CD</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61498A09-97D7-3AB5-E591-B46AFEFA86BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

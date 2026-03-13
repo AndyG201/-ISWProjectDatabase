@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73472A62-94FC-762F-6DE0-7572FBDD9DA6" containerWithKeyObject="8D1CB20C-09C8-6B01-DB87-3A1CEBBE66D8" localFKIndex="16B0DB16-9EBB-CA75-A9CB-02B1D42D92DB" name="PAYMENT_TICKET_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>TICKET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE8D67CF-E926-CD6C-A6B9-6513958544FB</referredTableID>
+<keyObject>1D0CF075-12CE-A7E3-5663-0834747A8837</keyObject>
+<referredKeyID>1D0CF075-12CE-A7E3-5663-0834747A8837</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ticket_id,USER_user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

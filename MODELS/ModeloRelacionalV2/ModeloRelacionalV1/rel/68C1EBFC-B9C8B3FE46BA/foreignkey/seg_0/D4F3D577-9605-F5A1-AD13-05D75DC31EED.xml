@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4F3D577-9605-F5A1-AD13-05D75DC31EED" containerWithKeyObject="55C57AB9-A96E-1A4B-648B-B5BA7D557F52" localFKIndex="BB348E68-B0BC-7092-7FD0-B00C83570EAF" name="PACK_STICKER_PACK_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>9077522C-B9E4-9776-A5D9-DFAD8637949B</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>PACK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5858AADF-F998-8C80-EEF0-C57AC49AF836</referredTableID>
+<keyObject>30E119BE-094F-AD27-DCE2-1F7C9B5FBBCC</keyObject>
+<referredKeyID>30E119BE-094F-AD27-DCE2-1F7C9B5FBBCC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pakage_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

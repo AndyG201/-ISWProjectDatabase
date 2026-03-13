@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F82E6A16-0588-1863-F18B-C40DC5511830" name="PACK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:17:18 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pakage_id" id="FC792F4C-7854-89EA-FF71-06B021AACF7D">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:17:43 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aperture_date" id="2D0D6628-F149-1A9B-5898-BE4FC212AAEC">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:17:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="F091AADC-D0B9-97FA-9499-8234992C094C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:24:48 UTC</createdTime>
+<generatorID>9F3B0280-C60A-7D6A-7818-DBA3F3DE55E7</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>C7FC2716-1418-3999-10C1-30CAB33D36E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF172D69-BD14-FE93-7457-B2D984233D2A" name="PACKAGE PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:17:54 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC792F4C-7854-89EA-FF71-06B021AACF7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

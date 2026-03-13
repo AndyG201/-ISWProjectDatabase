@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E182EFE-52EE-49E6-611F-32D742B60ECC" containerWithKeyObject="8D1CB20C-09C8-6B01-DB87-3A1CEBBE66D8" localFKIndex="890C7315-DC7A-3982-21E2-A574FEF3E07F" name="PAYMENT_TRANFER_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>05C5ECB3-F5F2-D43A-3B17-7D258BFD0A74</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>TRANFER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF3D0598-2711-1E19-D8A7-6CEBEB949F50</referredTableID>
+<keyObject>F2A18589-A0E2-33BE-50E5-352BE449618A</keyObject>
+<referredKeyID>F2A18589-A0E2-33BE-50E5-352BE449618A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>transfer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

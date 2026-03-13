@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40C3D5C3-61CE-B9A6-6B70-1AE5405B3F80" name="PAYMENT">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:51:08 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pay_id" id="35A34295-E24D-6EAC-72D1-99FF7E2C5470">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:51:21 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="0CCBC74C-2D28-195B-9963-87A0F839EABB">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:51:32 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier" id="02A4C18C-3AEE-4E8E-AE89-301DEFA8001E">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:52:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="E2D55D89-779A-DDA8-F247-C4147C3DC07B">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:53:00 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="B903224D-E1F6-CE6D-5727-C4B01D51D448">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:53:10 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ticket_id" id="FE06E273-0AD1-F67D-4EB4-9F2EA7553C5E">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:58:25 UTC</createdTime>
+<generatorID>7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>2EA99F69-8483-DB95-B380-6F6D11209A42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="3F32F5FE-240B-F1E5-EEED-754E123507A7">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:58:25 UTC</createdTime>
+<generatorID>7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>31C73835-AC5D-C6F9-BBBD-5AAC49065579</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transfer_id" id="C637B689-34B8-38BC-C28D-D4A16EF70860">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 13:10:43 UTC</createdTime>
+<generatorID>05C5ECB3-F5F2-D43A-3B17-7D258BFD0A74</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<referedAttribute>F1EF3F71-9F25-C2CC-5802-1B2DFBA75956</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E2B3004-63EE-E703-0815-0D748F7F7C22" name="PAY PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-06 12:51:31 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="E4A6D2A2-7CF7-D06F-CF4E-338C40298997" value="true"/>
+<item key="9FE67E26-7649-6C5C-375F-6703B9839706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35A34295-E24D-6EAC-72D1-99FF7E2C5470</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

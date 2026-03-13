@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="869A3661-F522-9373-2214-87C2F5E24D57" name="MATCH_STATUS">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>37FED47C-423B-F688-897D-06E27CA07115</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_match_status" id="0B53CE64-7781-6A03-4FFB-D19804D4CA10">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>525BD243-A22F-66FB-8021-AD1BE36F4075</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_status" id="E0673D71-C05B-0637-7454-AE0E48755D0C">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>4CD8ACF2-7B24-4213-2DB8-6E47D773A922</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATCH_match_id" id="310C673D-B25C-F7BC-617F-B3AB14947EC3">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>045C1C92-5DE2-41AC-CEA4-C4AA2F55501E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3783CF17-BFDF-6ADD-E6D7-8F71C1412F46" referredColumn="34A008A7-2CC9-A5A4-73B8-21336AC6088B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5E80835-B87B-AAD9-09FE-A2C803597B51" name="MATCH_STATUS_PK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:24 UTC</createdTime>
+<generatorID>2512EEC0-1AE0-D856-E0C5-0703D04336AD</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B53CE64-7781-6A03-4FFB-D19804D4CA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="554CBF25-84AE-6DEB-3B53-DEA3748F483E" name="MATCH_STATUS_MATCH_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:25 UTC</createdTime>
+<generatorID>8A002BD3-5A21-D81D-825C-3CAB83DB553E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="310C673D-B25C-F7BC-617F-B3AB14947EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

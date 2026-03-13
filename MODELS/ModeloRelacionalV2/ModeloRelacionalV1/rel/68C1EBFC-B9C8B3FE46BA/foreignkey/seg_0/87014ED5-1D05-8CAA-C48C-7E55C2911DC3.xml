@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87014ED5-1D05-8CAA-C48C-7E55C2911DC3" containerWithKeyObject="9FD4B04D-C8E2-7979-1CF9-111691250AC8" localFKIndex="83451772-E60E-2D80-B7F3-BE37C5E48D67" name="NOTIFI_HISTORY_NOTIFICATION_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:25 UTC</createdTime>
+<generatorID>47818D30-E3B1-84A0-2156-D568846E0CD6</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>NOTIFICATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC328AC5-AB49-5F8B-CC6B-7E4524B74D90</referredTableID>
+<keyObject>3CEBBB87-7066-A3E7-2BB9-BF4E55745924</keyObject>
+<referredKeyID>3CEBBB87-7066-A3E7-2BB9-BF4E55745924</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>notification_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

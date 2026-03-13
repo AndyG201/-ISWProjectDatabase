@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABC48DE9-7A99-6C83-D2ED-71A1D625FC05" containerWithKeyObject="66863310-1358-CE71-9FB3-4C826884EB88" localFKIndex="85477DF0-21C2-35A0-C38E-7BA17D610011" name="EVENT_AUDIT_FK">
+<createdBy>aulainformatica</createdBy>
+<createdTime>2026-03-13 14:48:25 UTC</createdTime>
+<generatorID>FB57A8FB-8DEB-3023-CB7E-BC2A8C491AE8</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>AUDIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB6EFC95-597D-E3B4-8448-03A9C1BAB692</referredTableID>
+<keyObject>0DBF6FD9-3167-003A-EF99-713196B0EF3A</keyObject>
+<referredKeyID>0DBF6FD9-3167-003A-EF99-713196B0EF3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>audit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
