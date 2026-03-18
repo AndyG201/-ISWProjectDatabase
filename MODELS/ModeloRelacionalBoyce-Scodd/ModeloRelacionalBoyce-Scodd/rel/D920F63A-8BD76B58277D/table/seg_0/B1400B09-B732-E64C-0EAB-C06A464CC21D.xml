@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1400B09-B732-E64C-0EAB-C06A464CC21D" name="STICKER_ALBUM">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>9495A911-5831-4A76-2897-CF933267EDAB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STICKER_card_id" id="AD430B0F-78F0-2ED4-B323-48E9D80C371C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>E083902B-01BA-7FA3-3ECD-3F1034BB74AA</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1711E029-219C-F5FA-B0DF-3B611422B87A" referredColumn="5A96A33C-5384-AEFA-B364-8A7A0CA5976A"/>
+</associations>
+</Column>
+<Column name="ALBUM_album_id" id="5F3D7284-0617-AD72-3CC1-424A5D184738">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>3815F8A2-9006-AE0F-4A11-F91E91C9CA2A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12309869-AF4F-EA86-BB86-F8D851FCA453" referredColumn="D87E8023-6CD8-6F8B-9020-2E744A606587"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A634224C-48EA-1C32-096C-760CA8E70C50" name="STICKER_ALBUM_STICKER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>FACB45CA-140E-99FA-9545-3B058D3AC467</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD430B0F-78F0-2ED4-B323-48E9D80C371C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E332A7-BD41-15D9-FCCE-1435D5CC2832" name="STICKER_ALBUM_ALBUM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>A342DFDE-BB6B-393B-4233-E3853BC0D8E5</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F3D7284-0617-AD72-3CC1-424A5D184738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

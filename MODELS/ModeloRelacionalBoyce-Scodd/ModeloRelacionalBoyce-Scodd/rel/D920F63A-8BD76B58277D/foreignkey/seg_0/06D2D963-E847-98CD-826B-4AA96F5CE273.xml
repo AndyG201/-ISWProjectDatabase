@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06D2D963-E847-98CD-826B-4AA96F5CE273" containerWithKeyObject="67CF4BD6-62CF-BB07-F153-BA0DEE1BC478" localFKIndex="0FB738E0-F808-9114-EDD4-C050DD0A26BC" name="STICKER_RARYTY_CAT_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>314FFF8B-59A6-4AD5-CAFB-3B2C243533CE</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>RARYTY_CAT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADD91B1A-4034-42B8-A282-BF731666D90E</referredTableID>
+<keyObject>D12FC327-EA46-4E70-29F6-4CB296A4AFFB</keyObject>
+<referredKeyID>D12FC327-EA46-4E70-29F6-4CB296A4AFFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rarety_cat_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F76773B-393A-8922-3C08-565505C4530D" name="NATIONAL_TEAM">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>5F53FD06-1B63-8C2B-5CCD-3B5BD755C039</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="national_team_id" id="7B857B7F-1B88-5DD1-61CD-F86650D491C5">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>475AEC4F-777D-E44F-112D-86B3C61B559D</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D24FBA1A-FD2C-E1CF-7F62-98BD95E6EC03">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>22A90C58-E45A-E2A2-3342-F48506F0128E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flag_url" id="3737AEF5-C3CA-D722-788C-4BCE3DFF2C48">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>158EF4B9-720B-14AD-2161-7C933813BBCB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAM_id_team" id="684C4F0C-6FA0-D7A0-3864-B0D96C31BFC8">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>397735C5-2315-7449-3289-2F0729B8F93D</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF9A4BDC-5139-05D6-601B-E6646102BF33" referredColumn="06FB4C3D-7DD5-2362-95D1-3A188163D018"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E08F6BD5-FFF5-FF7A-077E-053C7DEBA1E1" name="NATIONAL_TEAM_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>2F056677-CE0F-AC2D-4AEB-B176D2456039</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B857B7F-1B88-5DD1-61CD-F86650D491C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26520EB1-485E-52DF-50B9-3E72C16874A4" name="NATIONAL_TEAM_TEAM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>94F0A944-4942-FF8A-CFA7-CC9A92EAAF97</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="684C4F0C-6FA0-D7A0-3864-B0D96C31BFC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

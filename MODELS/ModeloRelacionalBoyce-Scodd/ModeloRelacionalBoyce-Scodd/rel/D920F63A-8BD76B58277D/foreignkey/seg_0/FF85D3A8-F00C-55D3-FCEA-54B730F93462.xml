@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF85D3A8-F00C-55D3-FCEA-54B730F93462" containerWithKeyObject="32D465DD-1CB3-E348-6D64-AA6C74DB77C9" localFKIndex="1EAE2140-B6FC-A978-B529-7A51343A819C" name="PHASE_MATCH_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>ED2ABCA5-04B0-9DC8-5403-5128DD9183CD</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>MATCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DB90885-3CA4-7FA4-6F95-CD2F45A58397</referredTableID>
+<keyObject>34ED1553-2BA4-3292-811B-5BE28958BDCE</keyObject>
+<referredKeyID>34ED1553-2BA4-3292-811B-5BE28958BDCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>match_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDC5A0D7-EE7F-E526-D288-2C1442BB80ED" containerWithKeyObject="1C280C46-7443-323F-6C32-00318F8A3FE4" localFKIndex="6FF0B674-00D8-9293-335D-F394822F8AF3" name="PACK_STICKER_STICKER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>6F2198D6-C100-DEF0-30A6-F645DEC00935</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<referredTableLongName>STICKER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>67CF4BD6-62CF-BB07-F153-BA0DEE1BC478</referredTableID>
+<keyObject>33432D30-6AB6-6710-E26F-46646747CE70</keyObject>
+<referredKeyID>33432D30-6AB6-6710-E26F-46646747CE70</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>card_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

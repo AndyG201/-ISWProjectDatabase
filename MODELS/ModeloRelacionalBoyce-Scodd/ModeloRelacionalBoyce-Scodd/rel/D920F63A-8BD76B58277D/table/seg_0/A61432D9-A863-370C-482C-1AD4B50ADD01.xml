@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A61432D9-A863-370C-482C-1AD4B50ADD01" name="ALBUM">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>E79A8995-6338-B736-2F6D-B41B0FB32061</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="album_id" id="D87E8023-6CD8-6F8B-9020-2E744A606587">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>B2A5FFE4-49B1-3E1C-FF83-896A9B4F089A</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_user_id" id="8C72FAE0-53AD-9FE1-5888-0F4EAB8F46CA">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>9489EC89-83A1-CC8F-E5DF-DFECF041DB47</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BDB6EE7-E746-44B4-96DA-6CC573515B02" referredColumn="6967C0A1-46F6-2602-68E0-87C76E0830A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF35A911-6FFD-BC09-E968-D331240AF9D3" name="ALBUM_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>BDA431A2-FE93-3D64-247C-8F98070E25AF</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87E8023-6CD8-6F8B-9020-2E744A606587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE9737D-CC13-1DE8-1406-87BD13C275B2" name="ALBUM_USER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>286AE6B3-D839-B75B-5A70-4F29E29BE3BC</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C72FAE0-53AD-9FE1-5888-0F4EAB8F46CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECD83612-3D2C-96AD-4F3C-63B8F675735E" name="AUDIT">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>D6135148-2840-0CC9-E479-D28765A8CFF3</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="audit_id" id="598AD856-2AA6-9455-F699-A9F98151DE6B">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>A2D89492-DD41-881F-7E2F-B68908170A75</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="action" id="D9A054B2-EAA9-3EE4-AF50-CA8A2ED6FB29">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>C050250D-BD9A-07AD-BCAE-B27A0F0BE235</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_hour" id="A1F0E343-545E-9C34-CF77-951A8500CDFE">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>A384A3CF-79AA-3E2E-7A88-69CF68FC8110</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="result" id="F6673ACA-0AE1-BDC9-4BB6-C2BA1691A578">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>A627A6B2-3D5A-21A6-DBD9-D799D20B675F</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correlation_id" id="5ED1FEA1-2F70-2DB9-7373-17C47A18913C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>EDA81E5F-BC47-04C2-0B6A-5283210D3CED</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="affected_entity" id="CE241926-081B-277A-A73D-A71A93229624">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>D21B254B-19DC-3583-BDB5-9D255452C9E0</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_user_id" id="38EB9F8E-996A-4133-C8D2-E8666FCC5C0C">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>1D1250AF-F3B5-6C47-8790-97A4D972E289</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF23C04E-1419-FA1D-6A07-E860307CF953" referredColumn="6967C0A1-46F6-2602-68E0-87C76E0830A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="552101CE-15C1-597E-44B2-070E8FBFB1E5" name="AUDIT_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>32BA3FA5-6CC9-DA76-68F6-C8D3342AD4B6</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="598AD856-2AA6-9455-F699-A9F98151DE6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE211732-D3F6-38DE-0A58-8A7E9EF41C7D" name="AUDIT_USER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>F83E34CD-4126-EAD7-979A-D69F23C75021</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38EB9F8E-996A-4133-C8D2-E8666FCC5C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

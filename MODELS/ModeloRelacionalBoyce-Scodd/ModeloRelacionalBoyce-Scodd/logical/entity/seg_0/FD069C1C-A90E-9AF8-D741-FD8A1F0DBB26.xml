@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD069C1C-A90E-9AF8-D741-FD8A1F0DBB26" name="COUNTRY">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:19:06 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="D920F63A-4A51-CCC9-2F98-8BD76B58277D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="country_id" id="51BE3608-8E8B-963B-CD0E-0CF76A569D44">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:19:14 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="D920F63A-4A51-CCC9-2F98-8BD76B58277D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_name" id="5D41A9D3-FAED-4B20-D019-7D2F64EC67EC">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:19:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="D920F63A-4A51-CCC9-2F98-8BD76B58277D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84863F0A-842C-9CC8-328C-783F81254899" name="COUNTRY PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:19:23 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<engineerTo>
+<item key="D920F63A-4A51-CCC9-2F98-8BD76B58277D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51BE3608-8E8B-963B-CD0E-0CF76A569D44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0CB80A8-F97E-BE97-B3AB-3ED2BEFD9F52" name="STA_NAT">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>EFB8124C-2DBA-D0D4-F4F2-EDB03105B0B3</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NATIONAL_TEAM_national_team_id" id="AEB0ABB1-1627-6FD3-3BEA-CC675245A92A">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>77DAF9FB-D337-E6CA-1F9C-5F9F1EE87961</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF6D327C-D84D-898B-A641-44F0D6D41BB0" referredColumn="7B857B7F-1B88-5DD1-61CD-F86650D491C5"/>
+</associations>
+</Column>
+<Column name="STADIUM_stadium_id" id="CAF8EA07-E36F-19FE-308A-F00E0EA30CC6">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>89A309D0-AF4C-D6B2-0D6B-7C891FCD2C6C</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="495E788E-2684-27E5-79BC-1DA8E3C1D612" referredColumn="03BD6E49-F3E2-8AFC-C516-756A4FD0276E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FB60F07-DFD7-5C41-D8A5-F036D181AB76" name="STA_NAT_NATIONAL_TEAM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>7E01B425-990B-B03B-6618-9D23C8391FBF</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB0ABB1-1627-6FD3-3BEA-CC675245A92A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726256BE-1031-0F47-7854-B357B7A70E4B" name="STA_NAT_STADIUM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>8497417F-53A2-052D-B870-3D1D0CD0D0F1</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF8EA07-E36F-19FE-308A-F00E0EA30CC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

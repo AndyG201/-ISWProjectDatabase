@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DB90885-3CA4-7FA4-6F95-CD2F45A58397" name="MATCH">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>50166B9E-9C4F-0A52-CB22-ACD58481D97F</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="match_id" id="F182190F-9B2B-978B-AB5A-1C7B80DDF583">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>3DC441E7-684B-7DB2-65D6-AC858FD840E9</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="92121D62-977B-CBC7-E2E3-BCE35B762276">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>A91FB866-DD1E-4397-5007-2DD7FC3BDE23</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_hour" id="F7B034FB-5972-EB39-6F2B-27F278648100">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>096EDA41-554A-62CA-1F3E-6FEFBF4777BE</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phase" id="45C6A221-F712-9856-1E7C-A3651D081EC5">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>823E7E92-BCA4-70F0-9A32-840F8E7ED88C</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STADIUM_stadium_id" id="2DD29315-5FDE-5C03-8249-58C3D6695B1F">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>88107AED-CF9F-1867-CA03-58957CCF8AAB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FE709EE-FCBD-B260-0E66-7D8C65DB6313" referredColumn="03BD6E49-F3E2-8AFC-C516-756A4FD0276E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34ED1553-2BA4-3292-811B-5BE28958BDCE" name="MATCH_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:33 UTC</createdTime>
+<generatorID>5ED1E444-A4D4-E47C-DD5F-663B3858E410</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F182190F-9B2B-978B-AB5A-1C7B80DDF583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39085DB6-0B0B-15C0-DED5-64E6BEE3C850" name="MATCH_STADIUM_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>217D964B-D67D-DC1A-5816-80A4B8BE6A2D</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD29315-5FDE-5C03-8249-58C3D6695B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

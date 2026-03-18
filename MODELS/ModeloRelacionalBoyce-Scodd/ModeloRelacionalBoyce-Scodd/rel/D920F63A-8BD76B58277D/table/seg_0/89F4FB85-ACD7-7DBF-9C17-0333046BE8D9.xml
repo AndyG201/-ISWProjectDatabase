@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89F4FB85-ACD7-7DBF-9C17-0333046BE8D9" name="PAYMENT">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>40C3D5C3-61CE-B9A6-6B70-1AE5405B3F80</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pay_id" id="9DA444B2-B2AD-2F38-1CAF-7CD62E12FCB4">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>35A34295-E24D-6EAC-72D1-99FF7E2C5470</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="73CBE511-0F5C-5650-27DB-C201A0EEE8B9">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>0CCBC74C-2D28-195B-9963-87A0F839EABB</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier" id="58CC45A1-DA53-C42E-C3F2-A0AD36A75EA0">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>02A4C18C-3AEE-4E8E-AE89-301DEFA8001E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="5C5C9478-726A-5501-01B8-485AFB86A4A2">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>E2D55D89-779A-DDA8-F247-C4147C3DC07B</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="210D3DFC-E2C8-1649-5CBC-A37B6557F337">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>B903224D-E1F6-CE6D-5727-C4B01D51D448</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TICKET_ticket_id" id="49A11997-0095-1C08-09F8-FBC3A614DDC1">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>FE06E273-0AD1-F67D-4EB4-9F2EA7553C5E</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C1551B0-44BA-2F19-779A-6C7EC893C61F" referredColumn="16E31358-27CD-744D-D105-26B95365D10C"/>
+</associations>
+</Column>
+<Column name="TICKET_USER_user_id" id="D5F14BAB-B3B8-9B56-8F11-815D03B26A22">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>3F32F5FE-240B-F1E5-EEED-754E123507A7</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C1551B0-44BA-2F19-779A-6C7EC893C61F" referredColumn="E8F17939-9C0C-0933-BE08-B4635239F58B"/>
+</associations>
+</Column>
+<Column name="TRANFER_transfer_id" id="60B45776-2010-8A45-57E0-68DE7006143D">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>C637B689-34B8-38BC-C28D-D4A16EF70860</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8205AF3D-E2BE-40F7-D5BD-D04AD30DF763" referredColumn="6A16E54B-2BEA-AB7D-E9E7-7E064F8AF906"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62E3FD18-E3D5-E02F-6958-5D836A2A73BF" name="PAYMENT_PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>6E2B3004-63EE-E703-0815-0D748F7F7C22</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA444B2-B2AD-2F38-1CAF-7CD62E12FCB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79054535-0C30-7566-36D9-EBCAD9A0D5E6" name="PAYMENT__IDX">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="49A11997-0095-1C08-09F8-FBC3A614DDC1"/>
+<colUsage columnID="D5F14BAB-B3B8-9B56-8F11-815D03B26A22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E81ADDF-9857-526C-E890-0BAFCD4B8436" name="PAYMENT__IDXv1">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>05C5ECB3-F5F2-D43A-3B17-7D258BFD0A74</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="60B45776-2010-8A45-57E0-68DE7006143D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DC2D071-24C4-747E-7D9E-654D3E719656" name="PAYMENT_TICKET_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>7B5E9BEE-C6FC-8A28-4CC0-3B6EB6D66E01</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49A11997-0095-1C08-09F8-FBC3A614DDC1"/>
+<colUsage columnID="D5F14BAB-B3B8-9B56-8F11-815D03B26A22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D60C108-6998-08B0-9D93-5A5E959CF448" name="PAYMENT_TRANFER_FK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-03-18 20:26:34 UTC</createdTime>
+<generatorID>05C5ECB3-F5F2-D43A-3B17-7D258BFD0A74</generatorID>
+<ownerDesignName>ModeloRelacionalV1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B45776-2010-8A45-57E0-68DE7006143D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
