@@ -106,9 +106,12 @@ CREATE TABLE MATCH_EVENT (
 
 CREATE TABLE TICKET (
   id_ticket SERIAL PRIMARY KEY,
-  status VARCHAR(50),
+  status VARCHAR(50) DEFAULT 'Disponible',
   price NUMERIC(10,2),
-  reserved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  reserved_at TIMESTAMP,
+  expiration_date TIMESTAMP,
+  paid_at TIMESTAMP,
+  correlation_id VARCHAR(36),
   id_match INT,
   id_user INT,
   FOREIGN KEY (id_match) REFERENCES MATCH(idMatch),
@@ -134,6 +137,7 @@ CREATE TABLE PAYMENT (
   amount NUMERIC(10,2),
   payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   provider VARCHAR(100),
+  stripe_intent_id VARCHAR(100),
   id_user INT,
   FOREIGN KEY (id_user) REFERENCES "USER"(idUser)
 );
@@ -141,7 +145,14 @@ CREATE TABLE PAYMENT (
 CREATE TABLE TRANSFER (
   id_transfer SERIAL PRIMARY KEY,
   transfer_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  correlation_id VARCHAR(36),
+  from_user_id INT,
+  to_user_id INT,
+  ticket_id INT,
   id_payment INT,
+  FOREIGN KEY (from_user_id) REFERENCES "USER"(idUser),
+  FOREIGN KEY (to_user_id) REFERENCES "USER"(idUser),
+  FOREIGN KEY (ticket_id) REFERENCES TICKET(id_ticket),
   FOREIGN KEY (id_payment) REFERENCES PAYMENT(id_payment)
 );
 
@@ -323,6 +334,92 @@ CREATE TABLE AUDIT_LOG (
   affected_entity VARCHAR(100),
   action VARCHAR(50),
   result VARCHAR(50)
+);
+
+-- =========================
+-- SPORTS BETTING
+-- =========================
+
+CREATE TABLE sports_bet (
+  id SERIAL PRIMARY KEY,
+  user_id INT NOT NULL,
+  match_id INT NOT NULL,
+  home_name VARCHAR(100) NOT NULL,
+  away_name VARCHAR(100) NOT NULL,
+  bet_type VARCHAR(30) NOT NULL,
+  bet_label VARCHAR(100) NOT NULL,
+  odds DOUBLE PRECISION NOT NULL,
+  stake INT NOT NULL,
+  potential_win INT NOT NULL,
+  status VARCHAR(20) NOT NULL DEFAULT 'pending',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  settled_at TIMESTAMP,
+  stripe_intent_id VARCHAR(255),
+  FOREIGN KEY (user_id) REFERENCES "USER"(idUser)
+);
+
+-- =========================
+-- COMMUNITY & SOCIAL FEED
+-- =========================
+
+CREATE TABLE post (
+  id SERIAL PRIMARY KEY,
+  user_id INT NOT NULL,
+  group_id INT,
+  content TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES "USER"(idUser),
+  FOREIGN KEY (group_id) REFERENCES POOL_GROUP(id_group) ON DELETE CASCADE
+);
+
+CREATE TABLE post_image (
+  id SERIAL PRIMARY KEY,
+  post_id INT NOT NULL,
+  image_data TEXT NOT NULL,
+  position INT DEFAULT 0,
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE
+);
+
+CREATE TABLE post_like (
+  post_id INT,
+  user_id INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (post_id, user_id),
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES "USER"(idUser)
+);
+
+CREATE TABLE post_comment (
+  id SERIAL PRIMARY KEY,
+  post_id INT NOT NULL,
+  user_id INT NOT NULL,
+  content TEXT NOT NULL,
+  parent_id INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES "USER"(idUser),
+  FOREIGN KEY (parent_id) REFERENCES post_comment(id) ON DELETE CASCADE
+);
+
+CREATE TABLE comment_like (
+  comment_id INT,
+  user_id INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (comment_id, user_id),
+  FOREIGN KEY (comment_id) REFERENCES post_comment(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES "USER"(idUser)
+);
+
+-- =========================
+-- EVENTS
+-- =========================
+
+CREATE TABLE event (
+  event_id SERIAL PRIMARY KEY,
+  type VARCHAR(50),
+  description TEXT,
+  audit_id INT,
+  FOREIGN KEY (audit_id) REFERENCES AUDIT_LOG(id_audit)
 );
 
 -- =========================
